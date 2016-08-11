@@ -1,0 +1,17 @@
+{
+  "name": "TutsApp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kenkoii/TutsApp",
+  "authors": [
+    "Kentoy Johannessen"
+  ],
+  "description": "Tech Training",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "angular-route": "~1.5.8",
+    "jquery": "~3.1.0",
+    "toastr": "~2.1.3"
+  }
+}
