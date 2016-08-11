@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient;
 var db;
-var port = 80;
+var port = process.env.PORT || 8080;
 var app = express();
 
 MongoClient.connect('mongodb://testuser:testicles@ds153745.mlab.com:53745/movie-quotes', function(err, database){
